@@ -13,8 +13,7 @@ generar();
 col.oninput = () => {
 generar();
 }
-cp.onchange= () => { generar(); }
-ci.onchange = () => { generar(); }
+
 const generar = () => {
 let f = parseInt(fil.value);
 let c = parseInt(col.value);
@@ -22,8 +21,8 @@ vf.innerHTML = f;
 vc.innerHTML = c;
 tabla = "<table>";
 for (i = 1; i <= f; i++) {
-    color = (i % 2 == 0) ? cp.value : ci.value;
-    tabla += "<tr bgcolor='" + color + "'>"
+    
+    tabla += "<tr bgcolor='blue'>"
     for (j = 1; j <= c; j++) {
     tabla += "<td></td>";
     }
