@@ -1,0 +1,22 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .input-container {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 30px;
+  }
+  
+  input {
+    width: 200px;
+  }
+  
+  #resultado {
+    margin-top: 20px;
+  }

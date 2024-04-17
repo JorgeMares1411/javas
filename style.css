@@ -1,0 +1,48 @@
+
+
+*{
+
+    margin: 0px;
+
+    padding: 0px;
+
+    box-sizing: border-box;
+
+}
+
+body{
+
+    text-align: center;
+
+}
+
+h1,table{
+
+    margin: auto;
+
+    font-size: 30px;
+
+    font-weight: bold;
+
+}
+
+td{
+
+    padding: 10px 20px;
+
+}
+
+#cajita{
+
+    width: 10px;
+
+    height: 10px;
+
+    margin: 30px auto;
+
+    background: black;
+
+    border-style: solid;
+
+}
+
